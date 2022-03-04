@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Exercicio4 {
 
 	public static void main(String[] args) {
-		int idade=0, sexo=0, opcoes=0, pessoaCalma=0, mulherNervosa=0, homemAgressivo=0, outroCalmo=0, pessoaNervosaMaior=0, pessoaCalmaMenor=0, pessoas=0;
+		int idade=0, sexo=0, opcoes=0, pessoaCalma=0, mulherNervosa=0, homemAgressivo=0, outroCalmo=0, pessoaNervosaMaior=0, pessoaCalmaMenor=0, pessoas=1;
 
 		Scanner ler = new Scanner(System.in);
 		
@@ -16,7 +16,8 @@ public class Exercicio4 {
 		System.out.println("Nos diga sua situação:\n1-Calma/e/o\n2-Nervosa/e/o\n3-Agressiva/e/o");
 		opcoes=ler.nextInt();
 		
-		while(pessoas<=150) {
+		while(pessoas<150) {
+			
 			if(opcoes==1) {
 				pessoaCalma++;
 			}
@@ -35,13 +36,14 @@ public class Exercicio4 {
 			if(idade<18 && opcoes==1) {
 				pessoaCalmaMenor++;
 			}
-			pessoas++;
+			
 			System.out.println("Digite sua idade: ");
 			idade=ler.nextInt();
 			System.out.println("Informe o sexo:\n1-Feminino\n2-Masculino\n3-Outros");
 			sexo=ler.nextInt();
 			System.out.println("Nos diga sua situação:\n1-Calma/e/o\n2-Nervosa/e/o\n3-Agressiva/e/o");
 			opcoes=ler.nextInt();
+			pessoas++;
 			
 		}
 			
