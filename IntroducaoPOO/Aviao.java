@@ -72,7 +72,17 @@ public class Aviao {
 		public void decolagem() {
 			this.rodas=true;
 			this.turbinas=true;
+		
 		}
+
+		public int getCombustivel() {
+			return combustivel;
+		}
+
+		public void setCombustivel(int combustivel) {
+			this.combustivel = combustivel;
+		}
+		
 		
 		}
 		

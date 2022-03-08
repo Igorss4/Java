@@ -31,6 +31,8 @@ public class AviaoObjeto {
 		a3.estado();
 		a3.decolar();
 		a3.aterrissagem();
+		System.out.println("");
+		System.out.println(a1.getCombustivel());
 		
 		
 	}
