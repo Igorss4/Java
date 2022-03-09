@@ -1,9 +1,11 @@
 package Heranca;
 
-public class Animal {
+public abstract class Animal {
 
 	private String nome, som;
 	private int idade;
+	
+	public abstract void emitirSom();
 	
 	public String getNome() {
 		return nome;
@@ -25,7 +27,6 @@ public class Animal {
 	}
 	public void estado() {
 		System.out.println("O nome é "+this.nome);
-		System.out.println("O som é "+this.som);
 		System.out.println("A idade é "+this.idade+" anos");
 	}
 	

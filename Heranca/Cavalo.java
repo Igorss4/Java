@@ -4,6 +4,11 @@ public class Cavalo extends Animal{
 
 	private String movimento;
 	
+	
+	@Override
+	public void emitirSom(){
+		System.out.println("Relinchando...");
+	}
 	public String getMovimento() {
 		return movimento;
 	}
