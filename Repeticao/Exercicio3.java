@@ -10,7 +10,7 @@ public class Exercicio3 {
 		
 		
 		
-		while(i!=-99) {
+		while(i!=-99 ) {
 			 if(i<=21) {
 				 menor++;
 			 }

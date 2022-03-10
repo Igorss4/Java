@@ -2,7 +2,7 @@ package Polimorfismo;
 
 public class TesteSobrecarga {
 
-	public void soma(int x, int y) {
+	public void soma(int x,int y) {
 		System.out.println(x+y);
 	}
 	public void soma(int x, int y, int z) {
